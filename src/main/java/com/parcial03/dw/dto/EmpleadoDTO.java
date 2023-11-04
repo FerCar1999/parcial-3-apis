@@ -23,4 +23,14 @@ public class EmpleadoDTO {
     private String genero;
     @Nullable
     private String direccion;
+    @Nullable
+    private MunicipioDTO municipio;
+    @Nullable
+    private String telefono;
+    @Nullable
+    private String estado;
+    @Nullable
+    private String motivo_inactivo;
+    @Nullable
+    private Float salario;
 }

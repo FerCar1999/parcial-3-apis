@@ -40,6 +40,9 @@ public class Empleado {
     @Column(nullable = true, length = 1)
     private  String estado;
 
+    @Column(nullable = true)
+    private Float salario;
+
     @Column(nullable = true, length = 250)
     private  String motivo_inactivo;
 }
