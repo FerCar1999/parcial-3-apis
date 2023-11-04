@@ -14,6 +14,9 @@ public class Empleado {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(nullable = true, length = 5)
+    private String codigo;
+
     @Column(nullable = true, length = 100)
     private String nombres;
 
